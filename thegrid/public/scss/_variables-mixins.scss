@@ -1,0 +1,34 @@
+$black: #0C141F;
+$blue: #6FC3DF;
+$orange: #DF740C;
+$white: #E6FFFF;
+
+$border-radius: 4px;
+
+@mixin text-shadow($color, $px) {
+  text-shadow: 0 0 $px $color;
+}
+
+@mixin box-shadow($color, $px) {
+  box-shadow: 0 0 $px $color;
+}
+
+@mixin title-typeface() {
+  font-family: 'Tron';
+  color: $blue;
+  letter-spacing: 5px;
+  @include text-shadow(lighten($blue, 10%), 10px);
+  // text-shadow: 0 0 10px lighten($blue, 10%); 
+}
+
+@mixin copy-typeface() {
+  font-family: 'Tech';
+  color: $blue;
+  letter-spacing: 1px;
+  @include text-shadow(lighten($blue, 10%), 1px);
+  // text-shadow: 0 0 1px lighten($blue, 10%); 
+}
+
+@mixin border-radius($radius) {
+  border-radius: $radius;
+}

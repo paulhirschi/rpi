@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="32px" viewBox="0 0 29 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Chess_rlt45</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Chess_rlt45" transform="translate(1.000000, 1.000000)" stroke-width="1.5" stroke="#000000">
+            <g id="Group">
+                <polygon id="Shape" stroke-linejoin="round" fill="#6FC3DF" points="0 30 27 30 27 27 0 27"></polygon>
+                <polygon id="Shape" stroke-linejoin="round" fill="#6FC3DF" points="3 27 3 23 24 23 24 27"></polygon>
+                <polyline id="Shape" stroke-linejoin="round" fill="#6FC3DF" points="2 5 2 0 6 0 6 2 11 2 11 0 16 0 16 2 21 2 21 0 25 0 25 5"></polyline>
+                <polyline id="Shape" stroke-linecap="round" stroke-linejoin="round" fill="#6FC3DF" points="25 5 22 8 5 8 2 5"></polyline>
+                <polyline id="Shape" fill="#6FC3DF" points="22 8 22 20.5 5 20.5 5 8"></polyline>
+                <polyline id="Shape" stroke-linecap="round" stroke-linejoin="round" fill="#6FC3DF" points="22 20.5 23.5 23 3.5 23 5 20.5"></polyline>
+                <path d="M2,5 L25,5" id="Shape" stroke-linecap="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

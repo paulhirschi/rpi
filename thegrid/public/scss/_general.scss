@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'Tron';
+  src: url('../fonts/Tr2n.ttf');
+}
+
+@font-face {
+  font-family: 'Tech';
+  src: url('../fonts/ShareTechMono.ttf');
+}
+
+*, *:before, *:after {box-sizing: border-box;}
+
+body {
+  background-color: $black;
+  padding: 1em;
+  @include copy-typeface;
+}
+
+h1 {font-size: 3.998em;}
+h2 {font-size: 2.827em;}
+h3 {font-size: 1.999em;}
+h4 {font-size: 1.414em;}
+
+h1, h2, h3, h4 {
+  @include title-typeface;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 10em;
+}
+
+.grid-container-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.grid-container-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.grid {
+  display: inline-block;
+  flex-grow: 1;
+  width: calc(100% * (1/2) - 2em - 4%);
+  margin: 0 2% 3em 2%;
+  border: 1px solid $blue;
+  @include box-shadow($blue, 10px);
+  padding: 0.75em;
+  @include border-radius(4px);
+}
