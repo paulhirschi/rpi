@@ -1,0 +1,23 @@
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+.container,
+.the-view {
+  height: 100%;
+  width: 100%;
+}
+
+.main-child-view {
+  @include span(4/5);
+
+  height: 100%;
+}
+
+.errorMessage {
+  text-align: center;
+  color: $red;
+}

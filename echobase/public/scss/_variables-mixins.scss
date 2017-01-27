@@ -1,0 +1,10 @@
+$midnight: #263238;
+$optblue: #0092D0;
+$teal: #00CEA6;
+$red: #FF3100;
+$white: #f2f2f2;
+$black: #272727;
+
+@mixin border-radius($radius) {
+  border-radius: $radius;
+}
